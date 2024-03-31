@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "secret_app_01",
+    "slug": "secret_app_01",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sravesh.secret_app_01"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "883327b5-f18e-45f0-a3a6-362ad85797eb"
+      }
+    }
+  }
+}
